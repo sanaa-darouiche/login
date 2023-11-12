@@ -1,56 +1,51 @@
 <html>
 <head>
+    <link rel="stylesheet" href="Style.css">
     <title>Login Page</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: hsl(246, 85%, 26%);
-            text-align: left;
-
-        }
-        .login-container {
-            width: 300px;
-            margin: 100px auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-           
-            
-        }
-        input[type=text], input[type=password] {
-            width: 100%;
-            padding: 8px;
-            margin: 8px 0;
-            box-sizing: border-box;
   
-        }
-        button {
-            width: 100%;
-            background-color: #041779;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-    </style>
 </head>
-<body>
-    <div class="login-container">
-        <h2 style="text-align:center;">Login</h2>
+<body >
+    <nav>
+        <h1>
+            logo
+        </h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section>
+
+        <div class="para">
+            <h1>Fly makes you</h1>
+            <h1>faster</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae tempore 
+               corrupti molestiae possimus quasi vel magnam pariatur cum repudiandae 
+               quibusdam quia ex non, dicta atque velit facere eum qui.</p> 
+          <button id="btn">see princing</button>
+        </div>
+
+        <div class="login-container">
+        <h2 style="text-align:center;">Sign Up for Free</h2>
         <form>
-            <label for="Email">Email:</label>
+            <label for="Full name"></label>
+            <input type="text" placeholder="Full name" required><br>
+            <label for="Email"></label>
             <input type="text" placeholder="Email" required><br>
-            <label for="Password">Password:</label>
-            <input type="password" placeholder="Password" required><br>
-            <input type="checkbox" id="showPassword"> Show Password 
-            <button type="submit">Sign In</button>
-            <p style="text-align:center;">Forgot Username / <a href="#">Password?</a></p>
-            <p style="text-align:center;">Don't have an account? <a href="#">Sign up</a></p>
+            <label for="Email"></label>
+            <input type="text" placeholder="Email" required><br>
+            <label for="type"></label>
+           <input type="checklist"> <label for="item1">type</label>
+            <button  type="submit">Register</button>
         </form>
-    </div>
+        </div>
+
+    </section>
+    
+    
+        
+    
 </body>
 </html>
 
